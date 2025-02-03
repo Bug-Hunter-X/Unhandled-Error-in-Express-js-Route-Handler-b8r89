@@ -1,0 +1,3 @@
+# Express.js Route Handler Error
+
+This repository demonstrates a common error in Express.js route handlers: missing error handling for invalid input.  The `bug.js` file shows a vulnerable route handler that doesn't check for invalid user IDs.  The `bugSolution.js` file shows the corrected version with proper error handling.  This vulnerability can cause unexpected crashes or lead to security risks if not handled properly.  Ensure your Express.js handlers robustly address potential errors and edge cases.
